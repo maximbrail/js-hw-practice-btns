@@ -7,8 +7,6 @@ const body = document.querySelector('body')
 const p = document.querySelector('p')
 
 
-console.log(btn);
-
 
 btn.onclick = ( ) => {
    body.classList.toggle('black')
@@ -21,5 +19,5 @@ btn3.onclick = ( ) => {
    p.classList.toggle('hidden')
 }
 btn4.onclick = ( ) => {
-   body.classList.toggle('green')
+   p.classList.toggle('orange')
 }
